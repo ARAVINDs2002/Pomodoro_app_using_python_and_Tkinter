@@ -1,8 +1,8 @@
 Pomodoro App Documentation
-________________________________________________________________________________________________________________________________
+_____________________________________________________________________________________________________________________________
 Overview:
 The Pomodoro App is a simple implementation of the Pomodoro Technique, a time management method developed by Francesco Cirillo in the late 1980s. This technique involves breaking work into intervals, typically 25 minutes in length, separated by short breaks. After a certain number of work intervals, a longer break is taken. The Pomodoro App provides a user-friendly interface for users to track and manage their work intervals and breaks.
---------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------
 Features:
 
 Timer Mechanism:
@@ -26,15 +26,15 @@ When the "START" button is clicked, the timer starts counting down from the conf
 After each work interval, a short break is taken, except after every 8th work interval, when a longer break is taken.
 During breaks, the title label changes to indicate the break type (short or long).
 Check marks are displayed to track completed work intervals.
----------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------
 Usage:
 Run the Pomodoro App by executing the Python script pomodoro_app.py.
 Use the "START" button to begin the timer for work intervals.
 After each work interval, take a short break by allowing the timer to run.
 After every 8th work interval, a longer break will be automatically taken.
 Use the "RESET" button to reset the timer at any time.
------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------
 Dependencies:
 Python 3.x
 Tkinter (Python's standard GUI library)
-----------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------
